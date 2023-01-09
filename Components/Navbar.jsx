@@ -4,17 +4,14 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div style={{ display: "flex", justifyContent: "space-between" }}>
+    <div  style={{ display: "flex", justifyContent: "space-between" }}>
       <h2>
         {" "}
         <Link href="https://hanumat-sharan.github.io/eval-portfolio/">
           Hanumat Sharan
         </Link>
       </h2>
-      <h2>
-        {" "}
-        <Link href="#profile">Profile</Link>
-      </h2>
+     
       <h2>
         {" "}
         <Link href="/projects">Projects</Link>

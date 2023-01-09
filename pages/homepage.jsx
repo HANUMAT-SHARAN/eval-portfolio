@@ -4,7 +4,7 @@ import Projects from "../Components/Projects";
 
 const HomePage = () => {
   return (
-    <div id="home" style={{ display: "flex" }}>
+    <div id="home" >
       <div>
         <Profile />
       </div>

@@ -119,8 +119,9 @@ const Profile = () => {
   //   }, []);
 
   return (
-    <div id="profile">
-      <Image
+    <section id="profile">
+     <div>
+       <Image
         src="https://avatars.githubusercontent.com/u/112655049?v=4"
         height={100}
         alt="d"
@@ -131,16 +132,12 @@ const Profile = () => {
         <h4>@hanumat-sharan</h4>
       </Link>
       <div>
-        <h3>Full-stack Developer</h3>
-        <h3>JavaScript</h3>
-        <h3>NodeJS</h3>
-        <h3>ReactJS</h3>
-        <h3>HTML</h3>
-        <h3>CSS</h3>
-        <h3>HTML</h3>
-        <h3>Chakra UI</h3>
+        <h1>Github Intro</h1>
+        <h2>Aspiring Full Stack Web Developer </h2>
       </div>
+     </div>
       <div id="education">
+        <h1>Education</h1>
         <h2>Currently Studing At Masai School</h2>
         <h3>12 th Pass Science</h3>
       </div>
@@ -163,7 +160,7 @@ const Profile = () => {
         <h3>HTML</h3>
         <h3>Chakra UI</h3>
       </div>
-    </div>
+    </section>
   );
 };
 
