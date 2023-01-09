@@ -105,3 +105,12 @@ a {
     color-scheme: dark;
   }
 }
+button{
+  padding:10px
+  var(--border-radius)15px;
+  background-color: blue;
+}
+#home>div{
+  width: 50%;;
+  
+}
